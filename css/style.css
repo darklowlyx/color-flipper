@@ -1,0 +1,52 @@
+@import "nullstyle.css";
+
+body {
+	background-color: hsl(0, 0%, 0%);
+	color: #fff;
+	font-size: 24px;
+	font-family: monospace;
+	padding: 0px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+h3 {
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+.buttons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+button {
+	border: 1px solid #fff;
+	padding: 20px 40px;
+	border-radius: 10px;
+	transition: background-color 0.3s ease;
+}
+#green {
+	background-color: hsl(120, 100%, 20%);
+}
+#green:hover {
+	background-color: hsl(120, 100%, 25%);
+}
+#red {
+	background-color: hsl(0, 100%, 30%);
+}
+#red:hover {
+	background-color: hsl(0, 100%, 50%);
+}
+#blue {
+	background-color: hsl(240, 100%, 30%);
+}
+#blue:hover {
+	background-color: hsl(240, 100%, 50%);
+}
+#random {
+	background-color: hsl(0, 0%, 30%);
+}
+#random:hover {
+	background-color: hsl(0, 0%, 50%);
+}
